@@ -26,30 +26,18 @@
         letter-spacing: 4px;
     }
 
+    /*  */
+
     .navigation-header {
         display: block;
         width: 80%;
-        padding: 40px 0;
+        padding: 40px 0 70px;
     }
     
     .menu-header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-    
-    .list-header-href {
-        display: block;
-        padding: 5px;
-        border-bottom: 3px solid transparent;
-        transition-duration: 0.4s;
-    }
-    
-    .list-header-href:hover {
-        border-color: #ffffff;
-        background-color: rgba(255, 255, 255, 0.5);
-        border-radius: 2rem;        
-        color: inherit;
     }
     
     .logo-header {
@@ -121,6 +109,56 @@
         padding: 20px;
     }
 
+    /* bus */
+
+    .col-img-margin {
+        margin-top: 0;
+    }
+
+    .bus {
+        position: relative;
+        padding: 5rem  0;
+    }
+
+    .col-logo {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        text-align: center;
+        width: 25%;
+        color: #373737;
+    }
+
+    .title-bus {
+        margin-top: 1.5rem;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .prgrf-bus {
+        font-size: 0.75rem;
+    }
+
+    .col-img {
+        flex-direction: row;
+    }
+
+    .col-logo {
+        margin-right: 1rem;
+    }
+
+    .bus-img {
+        display: block;
+        width: 100%;
+        max-width: 370px;
+        height: auto;
+        margin: 0 auto;   
+    }
+
+    .bus-logo {
+        max-width: 59px;
+    }
     /* subs style */
 
     .label-email {
@@ -134,6 +172,7 @@
     }
 
     .button-link-download {
+        margin-top: 2rem;
         padding: 0;
         padding-left: 1rem;
     }
@@ -193,44 +232,11 @@
         padding: 5rem  0;
     }
 
-    .col-logo {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        text-align: center;
-        width: 25%;
-        color: #373737;
-    }
-
-    .title-bus {
-        margin-top: 1.5rem;
-        letter-spacing: 2px;
-        font-weight: 400;
-        font-size: 1rem;
-    }
-
-    .prgrf-bus {
-        font-size: 0.75rem;
-    }
-
-    .col-img {
-        width: 100%;
-        display: flex;
-    }
-
-    .bus-img {
-        display: block;
-        width: 100%;
-        max-width: 370px;
-        height: auto;
-        margin: 0 auto;   
-    }
-
-    .bus-logo {
-        max-width: 59px;
-    }
-
     /* mail style */
+
+    .submit-button {
+        padding: 20px;
+    }
 
     /* download style */
 
@@ -243,5 +249,6 @@
         padding-left: 1rem;
     }
 
+    /* footer style */
 
 }
