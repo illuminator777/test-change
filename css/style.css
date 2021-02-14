@@ -154,6 +154,7 @@ a {
     color: #16A085;
     margin: 0;
     padding: 1.5rem 0;
+    font-size: .8rem;
 }
 
 .text-headphone {
@@ -211,7 +212,7 @@ a {
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
-    width: 25%;
+    width: 90%;
     margin: auto;
     color: #373737;
 }
@@ -310,6 +311,7 @@ a {
     color: #373737;
     margin: 0;
     padding: 1.5rem 0;
+    font-size: 1rem;
 }
 
 .button-link {
