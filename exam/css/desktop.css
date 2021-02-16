@@ -1,0 +1,258 @@
+@media (min-width: 768px) { 
+    
+    /* container */
+
+    .container {
+        width: 70%;
+    }
+
+    .row-container {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .row-left {
+        text-align: left;
+    }
+
+    .text-container {
+        padding: 5rem 0 0;
+    }
+
+    .prgrf-container {
+        font-size: .75rem;
+        line-height: 2;
+        letter-spacing: 4px;
+    }
+
+    /*  */
+
+    .navigation-header {
+        display: block;
+        width: 80%;
+        padding: 40px 0 70px;
+    }
+    
+    .menu-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo-header {
+        position: absolute;
+        top: 2rem;
+        left: 50%;
+        transform: translate(-50%)    
+    }
+    
+    .button-toggle {
+        display: none;
+    }
+
+    .button-link-container {
+        padding: 15px 30px;
+    }
+
+    .button-link-shadow {
+        padding: 20px 70px;
+    }
+
+    /* headphone style */
+
+    .headphone {
+        background-image: url('/foto/headphone-img/second-2.png');
+    }
+
+    .col{
+        margin-right: 2rem;
+        width: 50%;
+    }
+
+    .text-headphone {
+        text-align: left;
+        background-color: inherit;
+    }
+
+    .title-green {
+        font-size: 1.5rem;
+    }
+
+    .button-shadow {
+        justify-content: flex-start;
+    }
+
+    .button-shadow-pad {
+       padding: 1.5rem 0 5rem;
+    }
+
+    /* phone style */
+
+    .phone {
+        position: relative;
+        padding: 8rem 0 0;
+    }
+
+    .row-phone {
+        flex-direction: row;
+        padding-bottom: 5rem;
+    }
+
+    .prgrf-phone {
+        letter-spacing: 2px;
+    }
+
+    .img-phone {
+        position: absolute;
+        left: 20%;
+        margin: 0;
+    }
+
+    .submit-button {
+        padding: 20px;
+    }
+
+    /* bus */
+
+    .col-img-margin {
+        margin-top: 0;
+    }
+
+    .bus {
+        position: relative;
+        padding: 5rem  0;
+    }
+
+    .col-logo {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        text-align: center;
+        width: 25%;
+        color: #373737;
+    }
+
+    .title-bus {
+        margin-top: 1.5rem;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .prgrf-bus {
+        font-size: 0.75rem;
+    }
+
+    .col-img {
+        flex-direction: row;
+    }
+
+    .col-logo {
+        margin-right: 1rem;
+    }
+
+    .bus-img {
+        display: block;
+        width: 100%;
+        max-width: 370px;
+        height: auto;
+        margin: 0 auto;   
+    }
+
+    .bus-logo {
+        max-width: 59px;
+    }
+    /* subs style */
+
+    .label-email {
+        font-size: 1.5rem;
+    }
+
+    /* download style */
+
+    .row-center {
+        flex-flow: column wrap;
+    }
+
+    .button-link-download {
+        margin-top: 2rem;
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    /* header style */
+
+    .navigation-header {
+        width: 60%;
+    }
+
+    .button-link-container {
+        padding: 20px 40px;
+    }
+
+    .button-link-shadow {
+        padding: 20px 70px;
+    }
+
+    .society-header {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* headphone style */
+
+    .text-headphone {
+        background-color: inherit;
+    }
+
+    .button-shadow {
+        justify-content: flex-start;
+    }
+
+    /* phone style */
+
+    .title-green-phone {
+        padding: 0 0 1.5rem;
+    }
+
+    /* TODO  для телефона если не получится сделать каруселт то просто сделать ее бг имедж и все */
+    /* .col-1 {
+        background-image: url('/foto/phone/phone-img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
+    /* bus style */
+
+    .bus {
+        position: relative;
+        padding: 5rem  0;
+    }
+
+    /* mail style */
+
+    .submit-button {
+        padding: 20px;
+    }
+
+    /* download style */
+
+    .download {
+        padding: 3rem 0;
+    }
+    
+    .button-link-download {
+        padding: 0;
+        padding-left: 1rem;
+    }
+
+    /* footer style */
+
+}
