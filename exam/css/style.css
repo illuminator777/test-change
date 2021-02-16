@@ -4,7 +4,7 @@
 
 .header {
     min-height: 100vh;
-    background-image: url('/foto/header-img/header-bg.png');
+    background-image: url('/exam/foto/header-img/header-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -144,7 +144,7 @@ a {
 /* headphone style */
 
 .headphone {
-    background-image: url('/foto/headphone-img/hand-2.png');
+    background-image: url('/exam/foto/headphone-img/hand-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -251,7 +251,7 @@ a {
 .email {
     position: relative;
     height: 100vh;
-    background-image: url('/foto/email/mail-img.png');
+    background-image: url('/exam/foto/email/mail-img.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
