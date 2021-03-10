@@ -11,8 +11,8 @@ function ButtonClose() {
 closeBtn.addEventListener('click', ButtonClose);
 
 
-const closeBtn = document.querySelector('.btn-close');
-const alertMenu = document.querySelector('.alert');
+const closeBtn = document.querySelectorAll('.btn-close');
+const alertMenu = document.querySelectorAll('.alert');
 
 closeBtn.forEach((allBtnClose) => {
 
