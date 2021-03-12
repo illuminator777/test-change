@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    padding: 5rem;
+}
+
+.one {
+    background-color: green;
+}
+
+.content {
+    display: none;
+}
+  
+.content.is-active {
+    display: block;
+}
+
